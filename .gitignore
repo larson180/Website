@@ -1,4 +1,31 @@
-.htaccess
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Environment
 .env
-.Vendor
-.gitattributes
+.env.local
+
+# Composer / Node
+/vendor/
+/node_modules/
+
+# Builds / generated
+/public/css/*.css
+/public/css/*.map
+/public/js/*.js
+
+# User uploads
+/public/uploads/
+
+# Logs / temp
+/logs/
+.tmp/
+*.log
+
+# PHPUnit
+.phpunit.result.cache
